@@ -304,6 +304,7 @@ class LoggingManager(object):
                                                        stream_setter))
 
     def _sys_stream_setter(self, stream_name):
+        #!重要，将sys.stdout和stderr设置为一个文件对象，
         assert stream_name in ('stdout', 'stderr'), stream_name
 
         def set_stream(file_object):
