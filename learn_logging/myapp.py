@@ -3,7 +3,7 @@ import mymodule,logging
 logging.basicConfig()
 
 
-log=logging.getLogger("MyApp")
+log=logging.getLogger("")
 print log.level
 log.setLevel(10)
 print log.level

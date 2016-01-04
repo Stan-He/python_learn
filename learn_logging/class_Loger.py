@@ -22,3 +22,4 @@ LA=myLogger(L,{'name1':random.randint})
 
 LA.debug('hahah')
 LA.debug('hahah')
+
