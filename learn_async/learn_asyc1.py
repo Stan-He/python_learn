@@ -28,6 +28,7 @@ async def count2():
 
 async def count3():
     for i in range(3):
+        print(f"cout3 yeild 100+{i}")
         yield 100+i
 
 async def count4():
