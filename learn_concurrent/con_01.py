@@ -7,9 +7,7 @@ concurrent 的优势在于提供了 ThreadPoolExecutor 和 ProcessPoolExecutor
 
 #创建线程池
 from concurrent import futures
-from multiprocessing import pool
 import random
-from os import getegid
 
 pool = futures.ThreadPoolExecutor(max_workers =3)
 
