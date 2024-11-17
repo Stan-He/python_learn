@@ -1,0 +1,84 @@
+# PyQt5 学习大纲
+
+## 1. 入门
+- **安装 PyQt5**
+  - 使用 pip 安装：`pip install PyQt5`
+- **第一个 PyQt5 应用**
+  - 创建一个简单的窗口
+  - 了解 QApplication 和 QMainWindow
+
+## 2. 基础组件
+- **窗口和布局**
+  - QWidget, QMainWindow
+  - QVBoxLayout, QHBoxLayout, QGridLayout
+- **基本控件**
+  - QPushButton, QLabel, QLineEdit, QTextEdit
+  - QComboBox, QCheckBox, QRadioButton
+
+## 3. 事件处理
+- **信号与槽机制**
+  - 连接信号与槽
+  - 自定义信号与槽
+- **事件处理**
+  - 处理按钮点击事件
+  - 处理键盘和鼠标事件
+
+## 4. 高级组件
+- **对话框**
+  - QMessageBox, QFileDialog, QInputDialog
+- **菜单和工具栏**
+  - 创建菜单栏和工具栏
+  - 添加菜单项和工具按钮
+- **状态栏**
+  - 创建和更新状态栏
+
+## 5. 图形和绘图
+- **绘图基础**
+  - 使用 QPainter 绘图
+  - 绘制基本形状和文本
+- **高级绘图**
+  - 绘制图像和复杂图形
+  - 使用 QPixmap 和 QImage
+
+## 6. 数据处理
+- **表格和树视图**
+  - 使用 QTableWidget 和 QTreeWidget
+  - 自定义表格和树视图
+- **模型视图编程**
+  - 了解模型视图架构
+  - 创建自定义模型
+
+## 7. 多线程编程
+- **线程基础**
+  - 使用 QThread 创建线程
+  - 线程间通信
+- **异步任务**
+  - 使用 QTimer 实现定时任务
+  - 使用 QFuture 和 QFutureWatcher
+
+## 8. 项目实战
+- **项目一：简单记事本**
+  - 创建一个简单的记事本应用
+  - 实现文件的打开、保存和编辑功能
+- **项目二：计算器**
+  - 创建一个简单的计算器应用
+  - 实现基本的加减乘除功能
+- **项目三：CPU 使用率监控**
+  - 创建一个 CPU 使用率监控应用
+  - 实时显示 CPU 使用率
+
+## 9. 部署和发布
+- **打包应用**
+  - 使用 PyInstaller 打包 PyQt5 应用
+- **发布应用**
+  - 创建安装包
+  - 发布到不同平台
+
+## 参考资料
+- **官方文档**
+  - [PyQt5 官方文档](https://www.riverbankcomputing.com/static/Docs/PyQt5/)
+- **教程和书籍**
+  - 《Rapid GUI Programming with Python and Qt》
+  - 在线教程和视频课程
+
+通过以上大纲，您可以系统地学习 PyQt5，从基础到高级，逐步掌握开发桌面应用的技能。
